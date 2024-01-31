@@ -1,6 +1,7 @@
 # SQL Queries on the existing “studentdb” database
 
 A database “studentdb” was used to run queries. It contains data about university applications from *** year, and socio-demographic information about the UK.<br>
+
 To note, I needed to examine spatial and non-spatial data. As initial _university_applicants_ table in the database did not have a geometry type, a column was added. A “Point” was created using applicants’ data from _Easting and Northing_ columns. <br>
 
 The results: There were 39,240 applicants in the past year, 23,559 female and 15,669 male. It is noticeable there were more female applicants across locations in the UK. Majority of the applicants (38,500) paid “home fees” and got via the Main Cycle of applications (38,108), and went to study full-time (36,331).
