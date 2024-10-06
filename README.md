@@ -7,7 +7,7 @@ For this exercise, an existing database “studentdb” was used to run various 
 Spatial and non-spatial data was examined. As initial _university_applicants_ table in the database did not have a geometry type (which was needed in order to answer all necessary queries in relation to their location), so a new column was added. A “Point” was created using applicants’ data from _Easting and Northing_ columns. <br>
 
 ### Example of queries
-select (select count(SEX) from university_applicants where SEX = 'F' --- 6079 female applicants with A level <br>
+select (select count(SEX) from university_applicants where SEX = 'F' <br>
 and PostConfActualQual =  'A/AS level' group by SEX) <br>
 as Female_A_Level; <br>
 RESULT: 6079 female applicants with A level <br> <br>
