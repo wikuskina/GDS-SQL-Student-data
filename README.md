@@ -1,6 +1,6 @@
 # SQL Queries on the “studentdb” database
 ## Data Science exercise
-### Author Viktorija S 2023
+### Author Viktorija S
 
 For this exercise, an existing database “studentdb” was used to run various queries. The database contains data about university applications in the UK from a sample year, including their socio-demographic information.<br>
 
