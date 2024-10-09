@@ -1,7 +1,3 @@
-
---
--- @StudentID: *****
---
 --
 -- Designed for PostgreSQL with PostGIS
 
